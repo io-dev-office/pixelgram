@@ -1,17 +1,16 @@
+const app = require('./configs/app')
 export default {
   mode: 'universal',
   /*
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || ''
+        name: 'google-site-verification',
+        content: 'nIhwJuNUwb4e4HNJVVDTrI49oTwKxgATVuD0pV0eLJg'
       }
     ],
     link: [
@@ -26,6 +25,35 @@ export default {
           'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@700;900&display=swap'
       }
     ]
+  },
+  meta: {
+    lang: app.lang,
+    name: app.name,
+    author: app.author,
+    description: app.description,
+    theme_color: app.theme_color,
+    mobileAppIOS: true,
+    viewport: 'width=device-width,initial-scale=1,user-scalable=no',
+    ogType: 'website',
+    ogSiteName: app.name,
+    ogTitle: app.name,
+    ogDescription: app.description,
+    ogHost: app.host,
+    ogImage: {
+      path: 'card.jpg'
+    },
+    ogUrl: app.url,
+    twitterCard: 'summary_large_image',
+    nativeUI: true,
+  },
+  manifest: {
+    name: app.name,
+    short_name: app.name,
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#fff',
+    theme_color: app.theme_color,
+    description: app.description
   },
   /*
    ** Customize the progress-bar color
