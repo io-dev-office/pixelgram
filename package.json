@@ -16,12 +16,12 @@
     "*.{css,vue}": "stylelint"
   },
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^3.0.0-0",
     "nuxt": "^2.0.0",
-    "@nuxtjs/pwa": "^3.0.0-0"
+    "vue-i18n": "^8.16.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
