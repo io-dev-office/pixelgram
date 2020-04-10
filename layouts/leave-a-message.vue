@@ -6,6 +6,14 @@
           src="/logo.svg"
           alt="">
       </div>
+      <div class="header-channel">
+        <a class="header-channel-link" href="">
+          <span class="header-channel-name">
+            PIXELGRAM<br>
+            Channel
+          </span>
+        </a>
+      </div>
     </div>
     <nuxt />
     <div class="footer">
