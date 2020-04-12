@@ -43,7 +43,7 @@
         #leave_a_message
       </p>
       <p class="signature">
-        2020.4.5<br>GIMA☆KENTA – PIXELGRAM
+        2020.4.13<br>GIMA☆KENTA – PIXELGRAM
       </p>
     </div>
     <div class="section">

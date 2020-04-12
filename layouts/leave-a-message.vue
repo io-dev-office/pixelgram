@@ -29,7 +29,7 @@
             class="header-channel-link"
             rel="noopener"
             target="_blank"
-            href="https://m.youtube.com/channel/UCJSMWiWOe7L4HgHmXXvYZwA">
+            href="https://www.youtube.com/playlist?list=PLMwDzYS6-Y6E63ivYGInLmGQ8vZ9j60pv">
             <span class="header-channel-inner">
               <span class="header-channel-icon">
                 <img
@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="container">
-      <div class="mv  ">
+      <div class="mv">
         <img
           src="/leave-a-message/logo.svg"
           alt="leave-a-message">
@@ -59,7 +59,7 @@
               class="button-link"
               rel="noopener"
               target="_blank"
-              href="https://m.youtube.com/channel/UCJSMWiWOe7L4HgHmXXvYZwA">
+              href="https://www.youtube.com/playlist?list=PLMwDzYS6-Y6E63ivYGInLmGQ8vZ9j60pv">
               <span class="button-inner">
                 <span class="button-icon">
                   <img
@@ -75,6 +75,7 @@
     </div>
     <div class="footer">
       <div class="footer-credit">
+        Project Team：PIXELGRAM<br>
         English Translator:Kazumasa Ueda<br>
         Logo:Arata Hirano<br>
         Design:Marina Kawamura, Shu Yoshimori<br>
@@ -115,6 +116,11 @@
         text-decoration: none;
         letter-spacing: 2px;
         color: #000;
+        transition: .3s;
+        opacity: 1;
+        &:hover {
+          color: #FF6400;
+        }
         &.nuxt-link-exact-active,
         &.nuxt-link-active {
           color: #FF6400;
@@ -150,6 +156,11 @@
         font-size: 16px;
         text-decoration: none;
         color: #fff;
+        transition: .3s;
+        opacity: 1;
+        &:hover {
+          opacity: .6;
+        }
         @media screen and (max-width: 768px) {
           padding: 16px 10px;
         }
@@ -221,6 +232,11 @@
       font-size: 24px;
       text-decoration: none;
       color: #fff;
+      transition: .3s;
+      opacity: 1;
+      &:hover {
+        opacity: .6;
+      }
       @media screen and (max-width: 768px) {
         display: block;
         font-size: 16px;
