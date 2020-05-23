@@ -6,7 +6,7 @@
           src="/logo.svg"
           alt="">
       </div>
-      <p class="text">つくることで「 」を変えていく。</p>
+      <p class="text">つくることで「&nbsp;&nbsp;」を変えていく。</p>
     </div>
   </div>
 </template>
